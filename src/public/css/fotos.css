@@ -1,0 +1,11 @@
+/* Fondo */
+.img {background-image: url(../images/webp/lads.webp), url(../images/webp/lads.webp), url(../images/webp/fondo1.webp); background-repeat: repeat-y, repeat-y, repeat; background-position: left, right, center; min-height: 100%; }
+#barra {background-color: black; border-top: solid #FFFFFF 1px; border-bottom: solid #FFFFFF 1px;}
+#fuego3 {background-image: url(../images/favicon11.gif);}
+#fuego1, #fuego2, #fuego4 {background-image: url(../images/espacio.png);}
+#btnChap, #capBlaze {display: none;}
+/* Galeria */
+.fotos{padding-top: 100px;}
+.fotoBla, .fotoEch, .fotoAlb, .fotoHen {width: 200px; height: 200px; border: solid #FF0000 15px; opacity: .5;}
+.fotoBla:hover, .fotoEch:hover, .fotoAlb:hover, .fotoHen:hover {opacity: 1.0;}
+.carousel {background-color: lightgray;}

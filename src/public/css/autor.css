@@ -1,0 +1,18 @@
+/* Fondo */
+.img {background-image: url(../images/webp/lads.webp), url(../images/webp/lads.webp), url(../images/webp/fondo1.webp); background-repeat: repeat-y, repeat-y, repeat; background-position: left, right, center; min-height: 100%; }
+#barra {background-color: black; border-top: solid #FFFFFF 1px; border-bottom: solid #FFFFFF 1px;}
+#fuego4 {background-image: url(../images/favicon11.gif);}
+#fuego1, #fuego2, #fuego3 {background-image: url(../images/espacio.png);}
+#btnChap, #capBlaze {display: none;}
+
+.pags{background-color: #1b95e0; white-space: pre-wrap;}
+.fondo {background-color: rgba(255,255,255,0.30);}
+.links {padding: 3px;}
+.link {padding-top: 0px; padding-left: 3px; padding-right: 3px; padding-bottom: 3px;}
+
+@media screen and (max-device-width: 480px) {
+    .fondo {font-size: 1.8em; height: auto; width: auto; margin: auto; padding: 10px;}
+    .pags { height: 200%; width: 200%; font-size: 1.8em;}
+    .links { height: 200%; width: 200%; margin: 0 auto; padding: auto; }
+    .link { height: 200%; width: 200%; margin: 0 auto; padding: auto; display: inline-block;}
+}
