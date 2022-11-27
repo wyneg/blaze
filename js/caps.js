@@ -121,10 +121,6 @@ function createBar(x){
     li4.setAttribute("class", "nav-item");
     li4.setAttribute("id", "li4");
 
-    var li5 = document.createElement("li");
-    li5.setAttribute("class", "nav-item");
-    li5.setAttribute("id", "li5");
-
     var a1 = document.createElement("a");
     a1.setAttribute("class", "nav-link text-light dirweb");
     a1.setAttribute("id", "inicio1");
@@ -193,17 +189,6 @@ function createBar(x){
     img4.setAttribute("alt", "autor");
     img4.setAttribute("title", "Autor");
 
-    var a5 = document.createElement("a");
-    a5.setAttribute("class", "nav-link text-light dirweb");
-    a5.setAttribute("id", "a5");
-    
-    var buttonChap = document.createElement("button");
-    buttonChap.setAttribute("class", "list-group-item text-danger");
-    buttonChap.setAttribute("id", "capBlaze");
-    buttonChap.setAttribute("data-toggle", "modal");
-    buttonChap.setAttribute("data-target", "#mod1");
-    buttonChap.textContent = "Último Capítulo";
-
     document.getElementById("barra").appendChild(div1);
 
     document.getElementById("div1").appendChild(ul1);
@@ -212,7 +197,6 @@ function createBar(x){
     document.getElementById("ul1").appendChild(li2);
     document.getElementById("ul1").appendChild(li3);
     document.getElementById("ul1").appendChild(li4);
-    document.getElementById("ul1").appendChild(li5);
 
     document.getElementById("li1").appendChild(a1);
     document.getElementById("inicio1").appendChild(imgf1);
@@ -229,12 +213,11 @@ function createBar(x){
     document.getElementById("li4").appendChild(a4);
     document.getElementById("autor1").appendChild(imgf4);
     document.getElementById("autor1").appendChild(img4);
-    
-    document.getElementById("li5").appendChild(a5);
-    document.getElementById("a5").appendChild(buttonChap);
 
     document.getElementById('textoCaeza').innerHTML = '<p>El último capítulo disponible es:</p>';
     document.getElementById('textoCapis').innerHTML = '<p> Capítulo '+x+'</p><p>Atentamente, Blaze.</p>';
     document.getElementById('textoPata').innerHTML = '<p>¿Visitaste la sección "Sobre el Autor"?</p>';
+
+    $("#mod1").modal("show");
     
 }
