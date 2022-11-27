@@ -94,3 +94,147 @@ function createElements(x, y) {
     document.getElementById("collapse"+ y).appendChild(cap);
     document.getElementById("modal" + x).appendChild(imagen);
 }
+
+function createBar(x){
+   
+    var div1 = document.createElement("div");
+    div1.setAttribute("class", "container-fluid");
+    div1.setAttribute("id", "div1");
+
+    var ul1 = document.createElement("ul");
+    ul1.setAttribute("class", "nav nav-fill");
+    ul1.setAttribute("id", "ul1");
+
+    var li1 = document.createElement("li");
+    li1.setAttribute("class", "nav-item");
+    li1.setAttribute("id", "li1");
+
+    var li2 = document.createElement("li");
+    li2.setAttribute("class", "nav-item");
+    li2.setAttribute("id", "li2");
+
+    var li3 = document.createElement("li");
+    li3.setAttribute("class", "nav-item");
+    li3.setAttribute("id", "li3");
+
+    var li4 = document.createElement("li");
+    li4.setAttribute("class", "nav-item");
+    li4.setAttribute("id", "li4");
+
+    var li5 = document.createElement("li");
+    li5.setAttribute("class", "nav-item");
+    li5.setAttribute("id", "li5");
+
+    var a1 = document.createElement("a");
+    a1.setAttribute("class", "nav-link text-light dirweb");
+    a1.setAttribute("id", "inicio1");
+    a1.setAttribute("href", "/index.html");
+
+    var imgf1 = document.createElement("img");
+    imgf1.setAttribute("src", "images/espacio.png");
+    imgf1.setAttribute("alt", "llama");
+    imgf1.setAttribute("id", "fuego1");
+    imgf1.setAttribute("style", "display: inline-block");
+
+    var img1 = document.createElement("img");
+    img1.setAttribute("src", "images/webp/inicio.webp");
+    img1.setAttribute("id", "imginicio");
+    img1.setAttribute("alt", "inicio");
+    img1.setAttribute("title", "Index");
+
+    var a2 = document.createElement("a");
+    a2.setAttribute("class", "nav-link text-light dirweb");
+    a2.setAttribute("id", "capitulos1");
+    a2.setAttribute("href", "/capitulos.html");
+
+    var imgf2 = document.createElement("img");
+    imgf2.setAttribute("src", "images/espacio.png");
+    imgf2.setAttribute("alt", "llama");
+    imgf2.setAttribute("id", "fuego2");
+    imgf2.setAttribute("style", "display: inline-block");
+
+    var img2 = document.createElement("img");
+    img2.setAttribute("src", "images/webp/caps.webp");
+    img2.setAttribute("id", "imgcaps");
+    img2.setAttribute("alt", "caps");
+    img2.setAttribute("title", "Chapters");
+
+    var a3 = document.createElement("a");
+    a3.setAttribute("class", "nav-link text-light dirweb");
+    a3.setAttribute("id", "galeria1");
+    a3.setAttribute("href", "/galeria.html");
+
+    var imgf3 = document.createElement("img");
+    imgf3.setAttribute("src", "images/espacio.png");
+    imgf3.setAttribute("alt", "llama");
+    imgf3.setAttribute("id", "fuego3");
+    imgf3.setAttribute("style", "display: inline-block");
+
+    var img3 = document.createElement("img");
+    img3.setAttribute("src", "images/webp/galeria.webp");
+    img3.setAttribute("id", "imggaleria");
+    img3.setAttribute("alt", "gallery");
+    img3.setAttribute("title", "Gallery");
+
+    var a4 = document.createElement("a");
+    a4.setAttribute("class", "nav-link text-light dirweb");
+    a4.setAttribute("id", "autor1");
+    a4.setAttribute("href", "/autor.html");
+
+    var imgf4 = document.createElement("img");
+    imgf4.setAttribute("src", "images/espacio.png");
+    imgf4.setAttribute("alt", "llama");
+    imgf4.setAttribute("id", "fuego4");
+    imgf4.setAttribute("style", "display: inline-block");
+
+    var img4 = document.createElement("img");
+    img4.setAttribute("src", "images/webp/sobreautor.webp");
+    img4.setAttribute("id", "imgautor");
+    img4.setAttribute("alt", "autor");
+    img4.setAttribute("title", "Autor");
+
+    var a5 = document.createElement("a");
+    a5.setAttribute("class", "nav-link text-light dirweb");
+    a5.setAttribute("id", "a5");
+    
+    var buttonChap = document.createElement("button");
+    buttonChap.setAttribute("class", "list-group-item text-danger");
+    buttonChap.setAttribute("id", "capBlaze");
+    buttonChap.setAttribute("data-toggle", "modal");
+    buttonChap.setAttribute("data-target", "#mod1");
+    buttonChap.textContent = "Último Capítulo";
+
+    document.getElementById("barra").appendChild(div1);
+
+    document.getElementById("div1").appendChild(ul1);
+
+    document.getElementById("ul1").appendChild(li1);
+    document.getElementById("ul1").appendChild(li2);
+    document.getElementById("ul1").appendChild(li3);
+    document.getElementById("ul1").appendChild(li4);
+    document.getElementById("ul1").appendChild(li5);
+
+    document.getElementById("li1").appendChild(a1);
+    document.getElementById("inicio1").appendChild(imgf1);
+    document.getElementById("inicio1").appendChild(img1);
+    
+    document.getElementById("li2").appendChild(a2);
+    document.getElementById("capitulos1").appendChild(imgf2);
+    document.getElementById("capitulos1").appendChild(img2);
+    
+    document.getElementById("li3").appendChild(a3);
+    document.getElementById("galeria1").appendChild(imgf3);
+    document.getElementById("galeria1").appendChild(img3);
+    
+    document.getElementById("li4").appendChild(a4);
+    document.getElementById("autor1").appendChild(imgf4);
+    document.getElementById("autor1").appendChild(img4);
+    
+    document.getElementById("li5").appendChild(a5);
+    document.getElementById("a5").appendChild(buttonChap);
+
+    document.getElementById('textoCaeza').innerHTML = '<p>El último capítulo disponible es:</p>';
+    document.getElementById('textoCapis').innerHTML = '<p> Capítulo '+x+'</p><p>Atentamente, Blaze.</p>';
+    document.getElementById('textoPata').innerHTML = '<p>¿Visitaste la sección "Sobre el Autor"?</p>';
+    
+}
