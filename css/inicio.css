@@ -19,6 +19,7 @@
 #textoCaeza {margin-top: 2rem; margin-bottom: -2rem;}
 #textoPata {margin-top: -2rem;}
 #textoCaeza, #textoCapis, #textoPata {font-size: 1.5em; font-family: 'MedievalSharp', cursive; color: rgb(0, 0, 0); text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);}
+#instagram {color: rgb(240, 66, 124);}
 
 @media screen and (max-device-width: 480px) {
     .blaze {width: 60%; height: 60%; border: 5px solid #FFD700;}

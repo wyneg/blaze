@@ -216,7 +216,7 @@ function createBar(x){
 
     document.getElementById('textoCaeza').innerHTML = '<p>El último capítulo disponible es:</p>';
     document.getElementById('textoCapis').innerHTML = '<p> Capítulo '+x+'</p><p>Atentamente, Blaze.</p>';
-    document.getElementById('textoPata').innerHTML = '<p>¿Visitaste la sección "Sobre el Autor"?</p>';
+    document.getElementById('textoPata').innerHTML = '<a id="instagram" class="link" href="https://www.instagram.com/newhungrystar/">Sígueme en Instagram</a>';
 
     $("#mod1").modal("show");
     
