@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /capitulos.html
+Allow: /galeria.html
+Allow: /autor.html
+
+Sitemap: https://blaze.cl/sitemap_blaze.txt
