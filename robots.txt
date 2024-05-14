@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /index.html
 Allow: /capitulos.html
 Allow: /galeria.html
 Allow: /autor.html
