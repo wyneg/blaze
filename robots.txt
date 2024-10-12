@@ -3,6 +3,5 @@ Allow: /
 Allow: /capitulos.html
 Allow: /galeria.html
 Allow: /autor.html
-Allow: /404.html
 
 Sitemap: https://blaze.cl/sitemap_blaze.txt
