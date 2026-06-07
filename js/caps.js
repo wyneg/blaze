@@ -218,8 +218,8 @@ function createBar(x){
     document.getElementById("autor1").appendChild(imgf4);
     document.getElementById("autor1").appendChild(img4);
 
-    document.getElementById('textoCaeza').innerHTML = '<p>El último capítulo disponible es: '+x+'</p>';
-    document.getElementById('textoCapis').innerHTML = '<p>También disponible en Youtube!</p><p>Atentamente, Blaze.</p>';
+    document.getElementById('textoCaeza').innerHTML = '<p>El último capítulo disponible es: '+x+'.</p>';
+    document.getElementById('textoCapis').innerHTML = '<p>Audiolibro en Youtube.</p><p>¡Y ahora hay un juego WEB!</p><p>Atentamente, Blaze.</p>';
 
     $("#mod1").modal("show");
     
