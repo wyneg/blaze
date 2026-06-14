@@ -67,7 +67,7 @@ function capitulos() {
         createElements(x,6);
     }
 
-    for (let x = 121; x <= 125; x++) {
+    for (let x = 121; x <= 126; x++) {
         createElements(x,7);
     }
 
